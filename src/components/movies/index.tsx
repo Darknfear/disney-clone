@@ -1,4 +1,4 @@
-import { Container, Content, Wrap } from "./styles";
+import { Container, Content, Wrap } from './styles';
 
 const Movies: React.FC = () => {
   return (

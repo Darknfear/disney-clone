@@ -1,6 +1,6 @@
 import './App.css';
 import { NavbarCustom } from './components';
-import { Home, Detail } from './pages';
+import { Home, Detail, Login } from './pages';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App: React.FC = () => {
@@ -9,6 +9,7 @@ const App: React.FC = () => {
           <Router>
               <NavbarCustom />
               <Routes>
+                  <Route path="/login" element={<Login />}></Route>
                   <Route path="/" element={<Home />}></Route>
                   <Route path='/detail' element={<Detail />}></Route>
               </Routes>

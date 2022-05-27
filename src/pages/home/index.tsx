@@ -8,6 +8,6 @@ const Home: React.FC = () => {
             <Movies />
         </Container>
     );
-}
+};
 
 export default Home;

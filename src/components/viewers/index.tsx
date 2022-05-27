@@ -1,4 +1,4 @@
-import { Container, Wrap } from "./styles";
+import { Container, Wrap } from './styles';
 const Viewers: React.FC = () => {
   return (
     <Container>
