@@ -1,4 +1,4 @@
-import { Nav, Logo, NavMenu, UserImg } from "./styles";
+import { Nav, Logo, NavMenu, UserImg } from './styles';
 const NavbarCustom: React.FC = () => {
   return (
     <Nav>

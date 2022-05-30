@@ -1,7 +1,7 @@
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { Settings } from "react-slick";
-import { Carousel, Wrap } from "./styles";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { Settings } from 'react-slick';
+import { Carousel, Wrap } from './styles';
 const ImgSlider: React.FC = () => {
   const settings: Settings = {
     dots: true,
@@ -9,7 +9,7 @@ const ImgSlider: React.FC = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: true
   };
   return (
     <Carousel {...settings}>
